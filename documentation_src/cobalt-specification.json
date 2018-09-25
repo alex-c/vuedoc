@@ -1,0 +1,46 @@
+{
+    "title": "Cobalt Language Specification",
+    "subtitle": "",
+    "version": "0.1",
+    "specification-version": "0.2.0",
+    "date": "18. July 2017",
+    "chapters": [
+        {
+            "title": "Introduction",
+            "sections": [
+                {
+                    "title": "State of the language",
+                    "content": [
+                        {
+                            "type": "text",
+                            "value": "Cobalt is currently being developed. Until the first full language version is finalized as version 1.0, features will be incrementally added with a 0.x version numbering. Reverse compatibility between these versions will not be guaranteed."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "1. Lexical Structure",
+            "sections": [
+                {
+                    "title": "1.1. Unicode",
+                    "content": [
+                        {
+                            "type": "text",
+                            "value": "Programs are written using the Unicode character set. All keywords, separators, operators, identifiers and primtive literals are formed from ASCII characters. Comments can contain non-ASCII Unicode characters."
+                        }
+                    ]
+                },
+                {
+                    "title": "1.2. Line Termination",
+                    "content": [
+                        {
+                            "type": "text",
+                            "value": "Line terminators can be the ASCII LF character, the ASCII CR character, or the ASCII CR character followed by the ASCII LF character. The CR LF combination is counted as one line terminator."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
